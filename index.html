@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garagat - Automotive Service Platform</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link href="/style.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./image/IMG_0350 (1) 1.png"
+            alt="Garagat Logo"
+            style="width: 100px; height: 100px; object-fit: cover"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How it works?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Garagat?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Download?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-image">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Rectangle%204674.jpg-lWKjZgE1JVvi2KyP5HPW6apT0rKyVe.jpeg"
+          alt="Luxury Car"
+          class="img-fluid w-100"
+        />
+        <div class="app-store-buttons">
+          <a href="#" class="btn btn-dark btn-sm me-2">
+            <i class="fab fa-google-play me-1"></i> Google Play
+          </a>
+          <a href="#" class="btn btn-dark btn-sm">
+            <i class="fab fa-apple me-1"></i> App Store
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works py-4">
+      <div class="container">
+        <div class="text-center mb-4">
+          <div style="display: inline-block">
+            <hr
+              style="
+                color: red;
+                width: 50%;
+                margin: 0 auto;
+                border: 2px solid red;
+              "
+            />
+            <h2 class="mt-2">How it works?</h2>
+          </div>
+        </div>
+
+        <p
+          class="text-center mb-4"
+          style="font-weight: bolder; font-size: 20px"
+        >
+          Find car maintenance, spare parts, towing, and more — anywhere,
+          anytime.
+        </p>
+
+        <!-- For Car Owners -->
+        <h3 class="text-center mb-2">For Car Owners:</h3>
+        <div class="row align-items-start">
+          <!-- Left Column (3 images) -->
+          <div class="col-md-3 d-flex flex-column gap-3">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%282%29.jpg-QMSSAqc3H7NKXfqwx1DZZENIpQODxJ.jpeg"
+              alt="App Screen"
+              class="img-fluid"
+              style="height: 320px"
+            />
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro.jpg-xKjPL0kU90eXhrUa7Ubdp6C8ViZZwJ.jpeg"
+              alt="App Screen"
+              class="img-fluid"
+              style="height: 320px"
+            />
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%283%29.jpg-I3UxiKgK2phNWNhxE8TqulqFY0Vuh7.jpeg"
+              alt="App Screen"
+              class="img-fluid"
+              style="height: 320px"
+            />
+          </div>
+
+          <!-- Center Column (step cards) -->
+          <div class="col-md-6 d-flex flex-column gap-4">
+            <!-- Step Cards -->
+            <div
+              class="step-card"
+              className="card-shadow"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <div class="step-content">
+                <span class="step-number">1.</span>
+                <div class="step-text" style="margin-top: 20px">
+                  <h4 class="step-title red-title">Choose a Service</h4>
+                  <p class="step-description">
+                    Choose from a wide range of services like car maintenance,
+                    spare parts, towing, and more.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="step-card text-end"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <div class="step-content d-inline-block text-end">
+                <span class="step-number">2.</span>
+                <div class="step-text mt-3 text-end">
+                  <h4 class="step-title red-title">
+                    Select Your Car & Location
+                  </h4>
+                  <p class="step-description">
+                    Tell us where you are and what you drive — we'll match you
+                    with the right pros near you.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="step-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <div class="step-content">
+                <span class="step-number">3.</span>
+                <div class="step-text" style="margin-top: 20px">
+                  <h4 class="step-title red-title">
+                    Get Bids from Verified Providers
+                  </h4>
+                  <p class="step-description">
+                    Compare prices, reviews, and availability before making your
+                    choice.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="step-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <div class="step-content d-inline-block text-end">
+                <span class="step-number">4.</span>
+                <div class="step-text mt-3 text-end">
+                  <h4 class="step-title red-title">Pick the Best Deal</h4>
+                  <p class="step-description">
+                    Choose based on your budget and preferences — all settled at
+                    your fingertips.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="step-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <div class="step-content">
+                <span class="step-number">5.</span>
+                <div class="step-text" style="margin-top: 20px">
+                  <h4 class="step-title red-title">Track & Relax</h4>
+                  <p class="step-description">
+                    Get real-time updates and communicate with providers
+                    directly via the app.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="step-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <div class="step-content d-inline-block text-end">
+                <span class="step-number">6.</span>
+                <div class="step-text mt-3 text-end">
+                  <h4 class="step-title red-title">Rate & Review</h4>
+                  <p class="step-description">
+                    Enjoy smooth service and leave a review to help other
+                    motorists better.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column (2 images) -->
+          <div class="col-md-3 d-flex flex-column gap-3">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20%281%29-b13LpHe0UYbtbaLmC74Oq7UsA1UeRv.png"
+              alt="App Screen"
+              class="img-fluid"
+              style="height: 320px"
+            />
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%282%29.jpg-QMSSAqc3H7NKXfqwx1DZZENIpQODxJ.jpeg"
+              alt="App Screen"
+              class="img-fluid"
+              style="height: 320px"
+            />
+          </div>
+        </div>
+
+        <br />
+        <br />
+
+        <h3 class="text-center mb-2">For Service Providers:</h3>
+        <div class="row g-4">
+          <!-- Step 1 -->
+          <div class="col-md-12">
+            <div class="row align-items-center">
+              <!-- Left Image -->
+              <div class="col-md-3">
+                <div class="phone-mockup">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro.jpg-xKjPL0kU90eXhrUa7Ubdp6C8ViZZwJ.jpeg"
+                    alt="App Screen"
+                    class="img-fluid"
+                    style="
+                      max-height: 250px;
+                      object-fit: cover;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+              </div>
+
+              <!-- Center Text -->
+              <div class="col-md-6">
+                <div
+                  class="step-card"
+                  style="
+                    box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                    border-radius: 10px;
+                    padding: 15px;
+                  "
+                >
+                  <div class="step-content">
+                    <span class="step-number">1.</span>
+
+                    <div class="step-text" style="margin-top: 20px">
+                      <h4 class="step-title red-title">Create Your Profile</h4>
+                      <p class="step-description">
+                        Set up your services, pricing, availability, and areas
+                        you serve.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="col-md-12">
+            <div class="row align-items-center">
+              <!-- Left Image -->
+              <div class="col-md-3">
+                <div class="phone-mockup"></div>
+              </div>
+
+              <!-- Center Text -->
+              <div class="col-md-6">
+                <div
+                  class="step-card d-inline-block text-end"
+                  style="
+                    box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                    border-radius: 10px;
+                    padding: 15px;
+                  "
+                >
+                  <div class="step-content d-inline-block text-end">
+                    <span class="step-number">2.</span>
+                    <div class="step-text mt-3 text-end">
+                      <h4 class="step-title red-title">Bid for Jobs</h4>
+                      <p class="step-description">
+                        Get notified of new customer requests in your area and
+                        send competitive bids to win jobs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right Image -->
+              <div class="col-md-3">
+                <div class="phone-mockup">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%283%29.jpg-I3UxiKgK2phNWNhxE8TqulqFY0Vuh7.jpeg"
+                    alt="App Screen"
+                    class="img-fluid"
+                    style="
+                      max-height: 250px;
+                      object-fit: cover;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="col-md-12">
+            <div class="row align-items-center">
+              <!-- Left Image -->
+              <div class="col-md-3">
+                <div class="phone-mockup">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro.jpg-xKjPL0kU90eXhrUa7Ubdp6C8ViZZwJ.jpeg"
+                    alt="App Screen"
+                    class="img-fluid"
+                    style="
+                      margin-top: -45px;
+                      max-height: 250px;
+                      object-fit: cover;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+              </div>
+
+              <!-- Center Text -->
+              <div class="col-md-6">
+                <div
+                  class="step-card text-start"
+                  style="
+                    box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                    border-radius: 10px;
+                    padding: 15px;
+                  "
+                >
+                  <div class="step-content justify-content-center">
+                    <span class="step-number">3.</span>
+                    <div class="step-text" style="margin-top: 20px">
+                      <h4 class="step-title red-title">Manage & Deliver</h4>
+                      <p class="step-description">
+                        Handle bookings, customer chats, and payments — all
+                        through the app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-garagat py-4">
+      <div class="container">
+        <div class="text-center mb-4">
+          <div style="display: inline-block">
+            <hr
+              style="
+                color: red;
+                width: 50%;
+                margin: 0 auto;
+                border: 2px solid red;
+              "
+            />
+            <h2 class="mt-2">Why Garagat?</h2>
+          </div>
+        </div>
+
+        <div
+          class="step-card"
+          style="
+            box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+            border-radius: 10px;
+            padding: 15px;
+          "
+        >
+          <div class="garagat-description mb-4">
+            <p class="text-center">
+              Garagat is your all-in-one platform that connects
+              <strong>car owners</strong> with trusted
+              <strong>service providers</strong>, making car care simple, fast,
+              and stress-free.
+            </p>
+          </div>
+        </div>
+
+        <br />
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div
+              class="benefits-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <h3 class="mb-3">For Car Owners:</h3>
+              <ul class="benefits-list">
+                <li>One-stop-shop for car services</li>
+                <li>Only verified service providers</li>
+                <li>Convenience from your phone</li>
+                <li>Transparent pricing</li>
+                <li>Real-time tracking</li>
+                <li>In-app booking system</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div
+              class="benefits-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <h3 class="mb-3">For Service Providers:</h3>
+              <ul class="benefits-list">
+                <li>Reach more customers and grow your business with ease</li>
+                <li>Manage your schedule efficiently</li>
+                <li>
+                  Streamlined payments and customer interactions from one smart
+                  dashboard
+                </li>
+                <li>
+                  Build your brand and reputation through the Garagat network
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="step-card"
+          style="
+            box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+            border-radius: 10px;
+            padding: 15px;
+          "
+        >
+          <div class="text-center mt-3 mb-4">
+            <p>
+              Whether you're maintaining your vehicle or running a car care
+              business, <strong>Garagat</strong> puts control, convenience, and
+              quality in your fingertips.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4">
+      <div class="container">
+        <div class="text-center mb-4">
+          <div style="display: inline-block">
+            <hr
+              style="
+                color: red;
+                width: 50%;
+                margin: 0 auto;
+                border: 2px solid red;
+              "
+            />
+            <h2 class="text-center mb-4">Testimonials</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div
+              class="testimonial-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <p class="testimonial-text">
+                "Super convenient! I needed a service appointment for my BMW and
+                found the best mechanic in my area within minutes. The booking
+                process was seamless, and I could track everything from my
+                phone."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ellipse%20132-gpbieACNy9czy1Swy5VccYxGQDJ7FB.png"
+                  alt="Customer"
+                  class="testimonial-img"
+                />
+                <div>
+                  <h5>- John S., Car Owner</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div
+              class="testimonial-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <p class="testimonial-text">
+                "I've been able to fill my schedule and grow my business
+                significantly since joining Garagat. The platform handles all
+                the booking and payment details so I can focus on what I do
+                best—fixing cars!"
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ellipse%20132.jpg-PLIWEEyX9m7hhdUeoxSjRByV5n4n9E.jpeg"
+                  alt="Service Provider"
+                  class="testimonial-img"
+                />
+                <div>
+                  <h5>- Hassan M., Service Provider</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div
+              class="testimonial-card"
+              style="
+                box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+                border-radius: 10px;
+                padding: 15px;
+              "
+            >
+              <p class="testimonial-text">
+                "The most exciting development in automotive service I've seen
+                in years! As a car owner, I love being able to compare options
+                and prices before making a decision. Highly recommended!"
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ellipse%20134-mzGYvbMKLHoZpiGbBXKuE7SURrmUAC.png"
+                  alt="Customer"
+                  class="testimonial-img"
+                />
+                <div>
+                  <h5>- Sara K., Car Owner</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!-- About Us Section -->
+    <section class="about-us py-4">
+      <div
+        class="container"
+        style="
+          box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+          border-radius: 10px;
+          padding: 15px;
+        "
+      >
+        <div class="text-center mb-4">
+          <div style="display: inline-block">
+            <hr
+              style="
+                color: red;
+                width: 50%;
+                margin: 0 auto;
+                border: 2px solid red;
+              "
+            />
+            <h2 class="text-center mb-4">About Us</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <p class="about-text">
+              At Garagat, we believe your car deserves more than just the
+              usual—it deserves expert care, attention to detail, and a service
+              experience you can trust.
+            </p>
+            <p class="about-text">
+              We're your all-in-one destination for hassle-free car maintenance,
+              offering everything from routine oil changes to deep cleaning and
+              detailing—right at your fingertips.
+            </p>
+            <p class="about-text">
+              Our mission is simple: connect car owners with the best service
+              providers in their area.
+            </p>
+            <p class="about-text">
+              Whether you're at home, at the office, or anywhere in between,
+              Garagat seamlessly connects you with trusted automotive
+              professionals who treat your car like their own.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!-- Footer -->
+    <footer class="footer py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="mb-3">
+              Need help or have a question? Our Support team is here for you.
+            </h3>
+            <div class="contact-info">
+              <p>
+                <i class="fas fa-envelope me-2"></i> Email: support@garagat.com
+              </p>
+              <p>
+                <i class="fas fa-phone me-2" href="#"></i> Phone: +1 (800)
+                123-4567
+              </p>
+              <p>
+                <i class="fas fa-map-marker-alt me-2"></i> Address: 123 Auto
+                Plaza, Doha, Qatar
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">Follow Us:</p>
+            <div class="social-links">
+              <a href="#" class="me-2">Instagram</a> |
+              <a href="#" class="me-2">Facebook</a> |
+              <a href="#" class="me-2">Twitter</a> | @garagat
+            </div>
+          </div>
+          <br />
+        </div>
+        <div class="row">
+          <div class="col-md-6 text-md mt-2">
+            <p class="mb-0">
+              <a href="#" class="me-2">Terms of Service</a> |
+              <a href="./pages/privacyPolicy.html" class="me-2"
+                >Privacy Policy</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12 text-end">
+            <div class="app-download">
+              <span>Download Garagat App:</span>
+              <br />
+              <a href="#" class="ms-2"
+                ><img
+                  src="./image/Appstore.jpg"
+                  alt="Google Play"
+                  style="width: 80px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.step-card {
+    box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
