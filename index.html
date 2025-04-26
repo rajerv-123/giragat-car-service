@@ -25,7 +25,7 @@
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-5">
         <a class="navbar-brand" href="#">
           <img
             src="./image/IMG_0350 (1) 1.png"
@@ -58,7 +58,7 @@
               <a class="nav-link" href="#">Why Download?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="/pages/aboutUs.html">About Us</a>
             </li>
           </ul>
         </div>
@@ -73,6 +73,8 @@
           alt="Luxury Car"
           class="img-fluid w-100"
         />
+        <!-- License plate blur overlay -->
+        <div class="license-plate-blur"></div>
         <div class="app-store-buttons">
           <a href="#" class="btn btn-dark btn-sm me-2">
             <i class="fab fa-google-play me-1"></i> Google Play
@@ -86,7 +88,7 @@
 
     <!-- How It Works Section -->
     <section class="how-it-works py-4">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-5">
         <div class="text-center mb-4">
           <div style="display: inline-block">
             <hr
@@ -113,42 +115,43 @@
         <h3 class="text-center mb-2">For Car Owners:</h3>
         <div class="row align-items-start">
           <!-- Left Column (3 images) -->
-          <div class="col-md-3 d-flex flex-column gap-3">
+          <div class="col-md-3 d-flex flex-column gap-3 mb-4 mb-md-0">
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%282%29.jpg-QMSSAqc3H7NKXfqwx1DZZENIpQODxJ.jpeg"
               alt="App Screen"
-              class="img-fluid"
-              style="height: 320px"
+              class="img-fluid app-screen"
             />
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro.jpg-xKjPL0kU90eXhrUa7Ubdp6C8ViZZwJ.jpeg"
               alt="App Screen"
-              class="img-fluid"
-              style="height: 320px"
+              class="img-fluid app-screen"
             />
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%283%29.jpg-I3UxiKgK2phNWNhxE8TqulqFY0Vuh7.jpeg"
               alt="App Screen"
-              class="img-fluid"
-              style="height: 320px"
+              class="img-fluid app-screen"
             />
           </div>
 
           <!-- Center Column (step cards) -->
-          <div class="col-md-6 d-flex flex-column gap-4">
+          <div class="col-md-6 d-flex flex-column gap-4 mb-4 mb-md-0">
             <!-- Step Cards -->
             <div
               class="step-card"
-              className="card-shadow"
               style="
                 box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
                 border-radius: 10px;
                 padding: 15px;
               "
             >
-              <div class="step-content">
+              <div
+                class="step-content"
+                style="margin-top: 20px; height: 200px !important"
+              >
                 <span class="step-number">1.</span>
-                <div class="step-text" style="margin-top: 20px">
+
+                <div class="step-text">
+                  <br />
                   <h4 class="step-title red-title">Choose a Service</h4>
                   <p class="step-description">
                     Choose from a wide range of services like car maintenance,
@@ -166,7 +169,10 @@
                 padding: 15px;
               "
             >
-              <div class="step-content d-inline-block text-end">
+              <div
+                class="step-content d-inline-block text-end"
+                style="height: 200px !important"
+              >
                 <span class="step-number">2.</span>
                 <div class="step-text mt-3 text-end">
                   <h4 class="step-title red-title">
@@ -188,7 +194,7 @@
                 padding: 15px;
               "
             >
-              <div class="step-content">
+              <div class="step-content" style="height: 200px !important">
                 <span class="step-number">3.</span>
                 <div class="step-text" style="margin-top: 20px">
                   <h4 class="step-title red-title">
@@ -210,7 +216,10 @@
                 padding: 15px;
               "
             >
-              <div class="step-content d-inline-block text-end">
+              <div
+                class="step-content d-inline-block text-end"
+                style="height: 200px !important"
+              >
                 <span class="step-number">4.</span>
                 <div class="step-text mt-3 text-end">
                   <h4 class="step-title red-title">Pick the Best Deal</h4>
@@ -230,7 +239,7 @@
                 padding: 15px;
               "
             >
-              <div class="step-content">
+              <div class="step-content" style="height: 200px !important">
                 <span class="step-number">5.</span>
                 <div class="step-text" style="margin-top: 20px">
                   <h4 class="step-title red-title">Track & Relax</h4>
@@ -250,7 +259,10 @@
                 padding: 15px;
               "
             >
-              <div class="step-content d-inline-block text-end">
+              <div
+                class="step-content d-inline-block text-end"
+                style="height: 200px !important"
+              >
                 <span class="step-number">6.</span>
                 <div class="step-text mt-3 text-end">
                   <h4 class="step-title red-title">Rate & Review</h4>
@@ -268,28 +280,25 @@
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20%281%29-b13LpHe0UYbtbaLmC74Oq7UsA1UeRv.png"
               alt="App Screen"
-              class="img-fluid"
-              style="height: 320px"
+              class="img-fluid app-screen"
             />
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%282%29.jpg-QMSSAqc3H7NKXfqwx1DZZENIpQODxJ.jpeg"
               alt="App Screen"
-              class="img-fluid"
-              style="height: 320px"
+              class="img-fluid app-screen"
             />
           </div>
         </div>
 
-        <br />
-        <br />
+        <div class="my-5"></div>
 
-        <h3 class="text-center mb-2">For Service Providers:</h3>
+        <h3 class="text-center mb-4">For Service Providers:</h3>
         <div class="row g-4">
           <!-- Step 1 -->
           <div class="col-md-12">
             <div class="row align-items-center">
               <!-- Left Image -->
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3 mb-md-0">
                 <div class="phone-mockup">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro.jpg-xKjPL0kU90eXhrUa7Ubdp6C8ViZZwJ.jpeg"
@@ -305,7 +314,7 @@
               </div>
 
               <!-- Center Text -->
-              <div class="col-md-6">
+              <div class="col-md-6 mb-3 mb-md-0">
                 <div
                   class="step-card"
                   style="
@@ -314,7 +323,7 @@
                     padding: 15px;
                   "
                 >
-                  <div class="step-content">
+                  <div class="step-content" style="height: 200px !important">
                     <span class="step-number">1.</span>
 
                     <div class="step-text" style="margin-top: 20px">
@@ -327,28 +336,32 @@
                   </div>
                 </div>
               </div>
+
+              <!-- Empty column to maintain layout -->
+              <div class="col-md-3"></div>
             </div>
           </div>
 
           <!-- Step 2 -->
           <div class="col-md-12">
             <div class="row align-items-center">
-              <!-- Left Image -->
-              <div class="col-md-3">
-                <div class="phone-mockup"></div>
-              </div>
+              <!-- Empty column to maintain layout -->
+              <div class="col-md-3 d-none d-md-block"></div>
 
               <!-- Center Text -->
-              <div class="col-md-6">
+              <div class="col-md-6 mb-3 mb-md-0">
                 <div
-                  class="step-card d-inline-block text-end"
+                  class="step-card"
                   style="
                     box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
                     border-radius: 10px;
                     padding: 15px;
                   "
                 >
-                  <div class="step-content d-inline-block text-end">
+                  <div
+                    class="step-content d-inline-block text-end w-100"
+                    style="height: 200px !important"
+                  >
                     <span class="step-number">2.</span>
                     <div class="step-text mt-3 text-end">
                       <h4 class="step-title red-title">Bid for Jobs</h4>
@@ -362,7 +375,7 @@
               </div>
 
               <!-- Right Image -->
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3 mb-md-0">
                 <div class="phone-mockup">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro%20%283%29.jpg-I3UxiKgK2phNWNhxE8TqulqFY0Vuh7.jpeg"
@@ -383,14 +396,13 @@
           <div class="col-md-12">
             <div class="row align-items-center">
               <!-- Left Image -->
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3 mb-md-0">
                 <div class="phone-mockup">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/iPhone%2013%20Pro.jpg-xKjPL0kU90eXhrUa7Ubdp6C8ViZZwJ.jpeg"
                     alt="App Screen"
                     class="img-fluid"
                     style="
-                      margin-top: -45px;
                       max-height: 250px;
                       object-fit: cover;
                       border-radius: 10px;
@@ -400,7 +412,7 @@
               </div>
 
               <!-- Center Text -->
-              <div class="col-md-6">
+              <div class="col-md-6 mb-3 mb-md-0">
                 <div
                   class="step-card text-start"
                   style="
@@ -409,7 +421,10 @@
                     padding: 15px;
                   "
                 >
-                  <div class="step-content justify-content-center">
+                  <div
+                    class="step-content justify-content-center"
+                    style="height: 200px !important"
+                  >
                     <span class="step-number">3.</span>
                     <div class="step-text" style="margin-top: 20px">
                       <h4 class="step-title red-title">Manage & Deliver</h4>
@@ -421,6 +436,9 @@
                   </div>
                 </div>
               </div>
+
+              <!-- Empty column to maintain layout -->
+              <div class="col-md-3"></div>
             </div>
           </div>
         </div>
@@ -428,7 +446,7 @@
     </section>
 
     <section class="why-garagat py-4">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-5">
         <div class="text-center mb-4">
           <div style="display: inline-block">
             <hr
@@ -461,11 +479,12 @@
           </div>
         </div>
 
-        <br />
+        <div class="my-4"></div>
+
         <div class="row">
           <div class="col-md-6 mb-4">
             <div
-              class="benefits-card"
+              class="benefits-card h-100"
               style="
                 box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
                 border-radius: 10px;
@@ -486,7 +505,7 @@
 
           <div class="col-md-6 mb-4">
             <div
-              class="benefits-card"
+              class="benefits-card h-100"
               style="
                 box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
                 border-radius: 10px;
@@ -529,7 +548,7 @@
     </section>
 
     <section class="py-4">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-5">
         <div class="text-center mb-4">
           <div style="display: inline-block">
             <hr
@@ -547,7 +566,7 @@
         <div class="row">
           <div class="col-md-4 mb-4">
             <div
-              class="testimonial-card"
+              class="testimonial-card h-100"
               style="
                 box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
                 border-radius: 10px;
@@ -575,7 +594,7 @@
 
           <div class="col-md-4 mb-4">
             <div
-              class="testimonial-card"
+              class="testimonial-card h-100"
               style="
                 box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
                 border-radius: 10px;
@@ -603,7 +622,7 @@
 
           <div class="col-md-4 mb-4">
             <div
-              class="testimonial-card"
+              class="testimonial-card h-100"
               style="
                 box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
                 border-radius: 10px;
@@ -631,63 +650,64 @@
       </div>
     </section>
 
-    <br />
+    <div class="my-4"></div>
 
     <!-- About Us Section -->
     <section class="about-us py-4">
-      <div
-        class="container"
-        style="
-          box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
-          border-radius: 10px;
-          padding: 15px;
-        "
-      >
-        <div class="text-center mb-4">
-          <div style="display: inline-block">
-            <hr
-              style="
-                color: red;
-                width: 50%;
-                margin: 0 auto;
-                border: 2px solid red;
-              "
-            />
-            <h2 class="text-center mb-4">About Us</h2>
+      <div class="container-fluid px-3 px-md-5">
+        <div
+          style="
+            box-shadow: rgba(209, 4, 4, 0.15) 2.4px 2.4px 3.2px;
+            border-radius: 10px;
+            padding: 15px;
+          "
+        >
+          <div class="text-center mb-4">
+            <div style="display: inline-block">
+              <hr
+                style="
+                  color: red;
+                  width: 50%;
+                  margin: 0 auto;
+                  border: 2px solid red;
+                "
+              />
+              <h2 class="text-center mb-4">About Us</h2>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <p class="about-text">
-              At Garagat, we believe your car deserves more than just the
-              usual—it deserves expert care, attention to detail, and a service
-              experience you can trust.
-            </p>
-            <p class="about-text">
-              We're your all-in-one destination for hassle-free car maintenance,
-              offering everything from routine oil changes to deep cleaning and
-              detailing—right at your fingertips.
-            </p>
-            <p class="about-text">
-              Our mission is simple: connect car owners with the best service
-              providers in their area.
-            </p>
-            <p class="about-text">
-              Whether you're at home, at the office, or anywhere in between,
-              Garagat seamlessly connects you with trusted automotive
-              professionals who treat your car like their own.
-            </p>
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <p class="about-text">
+                At Garagat, we believe your car deserves more than just the
+                usual—it deserves expert care, attention to detail, and a
+                service experience you can trust.
+              </p>
+              <p class="about-text">
+                We're your all-in-one destination for hassle-free car
+                maintenance, offering everything from routine oil changes to
+                deep cleaning and detailing—right at your fingertips.
+              </p>
+              <p class="about-text">
+                Our mission is simple: connect car owners with the best service
+                providers in their area.
+              </p>
+              <p class="about-text">
+                Whether you're at home, at the office, or anywhere in between,
+                Garagat seamlessly connects you with trusted automotive
+                professionals who treat your car like their own.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <br />
+    <div class="my-4"></div>
 
     <!-- Footer -->
     <footer class="footer py-3">
-      <div class="container">
+      <div class="container-fluid px-3 px-md-5">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h3 class="mb-3">
@@ -710,37 +730,33 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container-fluid px-3 px-md-5 mt-3">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3 mb-md-0">
             <p class="mb-0">Follow Us:</p>
             <div class="social-links">
               <a href="#" class="me-2">Instagram</a> |
-              <a href="#" class="me-2">Facebook</a> |
-              <a href="#" class="me-2">Twitter</a> | @garagat
+              <a href="#" class="mx-2">Facebook</a> |
+              <a href="#" class="ms-2">Twitter</a> | @garagat
             </div>
           </div>
-          <br />
-        </div>
-        <div class="row">
-          <div class="col-md-6 text-md mt-2">
+          <div class="col-md-6 text-md-end mt-2 mt-md-0">
             <p class="mb-0">
-              <a href="#" class="me-2">Terms of Service</a> |
-              <a href="./pages/privacyPolicy.html" class="me-2"
+              <a href="./pages/termsAndCondition.html" class="me-2">Terms of Service</a> |
+              <a href="./pages/privacyPolicy.html" class="ms-2"
                 >Privacy Policy</a
               >
             </p>
           </div>
         </div>
-        <div class="row mt-2">
-          <div class="col-12 text-end">
+        <div class="row mt-3">
+          <div class="col-12 text-md-end">
             <div class="app-download">
               <span>Download Garagat App:</span>
-              <br />
               <a href="#" class="ms-2"
                 ><img
                   src="./image/Appstore.jpg"
-                  alt="Google Play"
+                  alt="App Store"
                   style="width: 80px"
               /></a>
             </div>

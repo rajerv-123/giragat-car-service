@@ -4,6 +4,51 @@ body {
   color: #333;
   line-height: 1.6;
 }
+/* License plate blur - Updated positioning and size */
+.license-plate-blur {
+  position: absolute;
+  bottom: 22%; /* Adjusted position to better cover the license plate */
+  left: 60%;
+  top: 250px;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 100px;
+  background-color: #0b1317;
+  border-radius: 20px;
+  z-index: 5;
+}
+
+@media (max-width: 992px) {
+  .license-plate-blur {
+    bottom: 20%;
+    width: 160px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .license-plate-blur {
+    bottom: 18%;
+    width: 140px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .license-plate-blur {
+    bottom: 15%;
+    width: 120px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .license-plate-blur {
+    bottom: 12%;
+    width: 100px;
+    height: 40px;
+  }
+}
 
 h1,
 h2,
@@ -39,7 +84,6 @@ h6 {
   border-radius: 20px;
   margin-top: -20px;
 }
-
 
 .nav-link {
   color: #e41e26 !important;
