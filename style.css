@@ -9,10 +9,10 @@ body {
   position: absolute;
   bottom: 22%; /* Adjusted position to better cover the license plate */
   left: 60%;
-  top: 250px;
+  top: 270px;
   transform: translateX(-50%);
-  width: 200px;
-  height: 100px;
+  width: 350px;
+  height: 140px;
   background-color: #0b1317;
   border-radius: 20px;
   z-index: 5;
